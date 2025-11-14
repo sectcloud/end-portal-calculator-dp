@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "End Portal Calculator",
+        "description": "This Datapack can calculate the localition of an End Portal using two throws of an Eye of Ender.",
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:sect_cloud",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
