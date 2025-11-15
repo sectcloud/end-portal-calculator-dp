@@ -1,0 +1,1 @@
+$execute store result score st.z scmth.TEMP run data get storage sc_math:fn tan $(temp)
