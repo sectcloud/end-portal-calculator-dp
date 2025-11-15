@@ -1,0 +1,1 @@
+$return run data get storage sc_math:fn tan $(x)
