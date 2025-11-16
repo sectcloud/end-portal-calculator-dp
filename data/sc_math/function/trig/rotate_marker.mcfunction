@@ -1,0 +1,1 @@
+$rotate @s $(deg) 0.0

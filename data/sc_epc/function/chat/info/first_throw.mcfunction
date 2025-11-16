@@ -1,0 +1,1 @@
+tellraw @s ["", {text:"First throw recorded with coordinates X: ", color: "green"}, {storage:"sc_epc:throws", nbt:"th0x", color:"yellow"}, {text:" Z: ", color:"green"}, {storage:"sc_epc:throws", nbt:"th0z", color:"yellow"}, {text:" Angle: ", color:"green"}, {storage:"sc_epc:throws", nbt:"th0a", color:"yellow"}]

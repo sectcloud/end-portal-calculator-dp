@@ -1,12 +1,12 @@
-#> CALCULATE: st.x = kth0 - kth1 + y1 - y0:
-    scoreboard players operation st.x scmth.TEMP = throw1.z scmth.TEMP
-    scoreboard players operation st.x scmth.TEMP -= throw0.z scmth.TEMP
-    scoreboard players operation st.x scmth.TEMP += kth0 scmth.TEMP
-    scoreboard players operation st.x scmth.TEMP -= kth1 scmth.TEMP
-    scoreboard players operation st.x scmth.TEMP *= 10000 scmth.CONST
+#> CALCULATE: st.x = kth0 - kth1 + throw1.z - throw0.z:
+    scoreboard players operation st.x scepc.TEMP = kth0 scepc.TEMP
+    scoreboard players operation st.x scepc.TEMP -= kth1 scepc.TEMP
+    scoreboard players operation st.x scepc.TEMP += throw1.z scepc.TEMP
+    scoreboard players operation st.x scepc.TEMP -= throw0.z scepc.TEMP
+    scoreboard players operation st.x scepc.TEMP *= 10000 scepc.CONST
 
 #> CALCULATE: tan0 - tan1:
-    scoreboard players operation tan0 scmth.TEMP -= tan1 scmth.TEMP
+    scoreboard players operation tan0 scepc.TEMP -= tan1 scepc.TEMP
 
 #> CALCULATE: st.x /= (tan0 - tan1):
-    scoreboard players operation st.x scmth.TEMP /= tan0 scmth.TEMP
+    scoreboard players operation st.x scepc.TEMP /= tan0 scepc.TEMP

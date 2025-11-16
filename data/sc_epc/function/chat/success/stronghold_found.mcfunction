@@ -1,0 +1,1 @@
+tellraw @s ["", {text:"Stronghold found at X: ", color: "green"}, {storage:"sc_epc:stronghold", nbt:"x", color:"yellow"}, {text:" Z: ", color:"green"}, {storage:"sc_epc:stronghold", nbt:"z", color:"yellow"}]

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "sc_math:init"
+        "sc_math:init",
+        "sc_epc:init"
     ]
 }

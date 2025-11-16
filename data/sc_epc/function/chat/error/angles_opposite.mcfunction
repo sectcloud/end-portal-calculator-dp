@@ -1,0 +1,1 @@
+tellraw @s ["", {text:"The angles of the two throws are opposite. Please try again from different place.", color:"red"}]
