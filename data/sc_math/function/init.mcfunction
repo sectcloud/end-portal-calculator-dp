@@ -1,3 +1,5 @@
+forceload add 0 0
+
 scoreboard objectives add scmth.TEMP dummy
 scoreboard objectives add scmth.CONST dummy
 
